@@ -7,7 +7,7 @@ numbersArray = [3, 6, 9, 12, 15];
 //displaying array
 console.log("Here is the array: ", numbersArray);
 
-//declaring functinos 
+//declaring functions 
 function cubeNumbers (x) {
     return x ** 3;
 }

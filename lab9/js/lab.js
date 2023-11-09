@@ -8,7 +8,7 @@ $("#problems").append("<button id = 'button-two'> Special Button");
 $("#results").append("<button id = 'button-three'> Special Button");
 
 //adding event listener to buttons
-$("#button").click(function() {
+$("#button-one").click(function() {
     $("#challenge").toggleClass("special");
 });
 

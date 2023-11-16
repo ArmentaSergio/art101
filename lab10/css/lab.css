@@ -1,0 +1,29 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+
+section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+}
+
+body {
+    background-color: slategray;
+}
+
+.text p {
+    display: inline-block;
+    max-width: 60%;
+    margin: 3px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: gray;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* wmodes.io/art101/lab10 inspection */
+.text:nth-child(even) {
+    text-align: right;
+}

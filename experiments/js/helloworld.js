@@ -6,7 +6,7 @@ console.log("Javascript is working");
 
 //slecting button element, prompting user to input string, modifying header 1 from html
 $("#my-button").click(function() {
-    console.log("The Button is working");
-    var name = prompt("Name please: ");
+    //console.log("The Button is working");
+    var name = $('#my-input').val();
     $("#title").html("Hello " + name);
 });

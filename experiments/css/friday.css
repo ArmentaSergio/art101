@@ -1,0 +1,14 @@
+/* 
+This is a css file. This is the presentation file.
+This is in css folder of the experiments folder. 
+This css file will only style friday.html
+ */
+
+ body {
+    background-color: pink;
+ }
+
+ #heart {
+    max-width: 350px;
+    margin-left: 50px;
+ }

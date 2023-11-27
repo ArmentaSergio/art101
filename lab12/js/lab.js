@@ -27,6 +27,8 @@ function sortingHat(str) {
     }
 }
 
+//event listener for button
+//displays results in output
 $("#button").click(function () {
     //getting value from input
     const name = $("#input").val();

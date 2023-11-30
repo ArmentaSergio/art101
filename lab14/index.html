@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 14 - Debugging</title>
+    <!--Linking jQuery to this file-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!--linking javascript file to this file -->
+    <script src="js/lab.js" defer></script>
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+</head>
+
+<body>
+    <!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 14 - Debugging</h1>
+			
+			<div id= "challenge">
+					<h2>Challenge</h2>
+					<p>With a partner, use your debugging knowledge to fix old assignments.</p>
+			</div>
+
+			<div id= "problems">
+					<h2>Problems</h2>
+					<p>There were no problems in this lab because the errors from the pervious lab was a runtime error not a syntax one so it was easy to tweak and fix the problem.</p>
+			</div>
+
+			<div id= "results">
+					<h2>Results</h2>
+					<p>Click on the button below to print out all numbers between 1 and 200. Multiples of 3, 5, and 7 were replaced with words Fizz (3), Buzz (5), and Boom (7). </p>
+			</div>
+
+			<!--adding a button fizz-->
+			<button id = "button">FizzBuzzBoom</button>
+
+            <div id="output"></div>
+		</section>
+
+        <section id = "debugging">
+            <!--<h2>The output after some debugging!</h2> -->
+			<h2>Debugged Lab</h2>
+			<p>In the left image below is javascript code from lab 13 that has been debugged. Initially the loops was not being displayed right in the output div as it was one long line <br> 
+			listing the numbers from the loop. Another issue that occured is that the loop was not displaying all the numbers between 1-200 because it was skipping certain numbers.<br> 
+			To fix this error I went back into the loop and fixed the return value so that all the numbers would be displayed with the exception  of the multipes of 3, 5, and 7<br>
+			as they were replaced by words. To fix the first issue I add a break line element in the loop so it was not one long continous output. The right image is the output after it has been fixed</p>
+			<div id = screenshots> 
+				<img id="javascript-code" src="./img/javascriptcode.png">
+				<img id="output-display" src="./img/output.png">
+			</div>
+        </section>
+
+		<nav id="links">
+			<!-- Put links to other pages (including the homepage) here. -->
+		</nav>
+	</main>
+</body>
+</html>

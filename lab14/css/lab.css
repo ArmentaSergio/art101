@@ -1,0 +1,21 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+
+section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+}
+
+body {
+    background-color: slategray;
+}
+
+#javascript-code{
+    width: 650px;
+}
+
+#output-display {
+    width: 650px;
+}

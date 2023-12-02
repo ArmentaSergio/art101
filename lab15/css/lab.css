@@ -1,13 +1,21 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 
-section {
+#main {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: 1px #888;
+    background-color: gold;
 }
 
 body {
-    background-color: slategray;
+    background-color: black;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/space.jpeg);
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
 }
+

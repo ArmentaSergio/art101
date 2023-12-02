@@ -45,7 +45,7 @@ $("#activate").click(function () {
             //var starship = data.results[shipIndex].name; 
             var starship = JSON.stringify(data.results[shipIndex]);
             //adding to output div
-            $("#output").append("<p>" + starship);
+            $("#output").append("<ul><li>" + starship + "</li></ol>");
         },
 
         error: function () {

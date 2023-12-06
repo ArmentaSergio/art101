@@ -52,28 +52,22 @@ function ajaxSuccess(data) {
     //extracting results
     var title = data.title;
     title = make_safe(title);
-
     var img = data.img;
     img = make_safe(img);
-
     var day = data.day;
     day = make_safe(day);
-
     var month = data.month;
     month = make_safe(month);
-
     var year = data.year;
     year = make_safe(year);
-
     var alt = data.alt;
     alt = make_safe(alt);
-
     var comicNum = data.num;
 
     var html = `<h3><u>${title} - ${month}/${day}/${year}</u></h3>
     <img src="${img}" title="${alt}"><br></br>
     <button id="previous">Previous</button> <button id="next">Next</button>`;
-    
+
     //output
     $("#output").html(html);
 
